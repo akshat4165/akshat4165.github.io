@@ -21,7 +21,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10
-        keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content"]
   socialIcons:
         - name: email
           url: "mailto:akshatagarwal4165@gmail.com"
