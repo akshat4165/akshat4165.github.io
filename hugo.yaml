@@ -11,6 +11,7 @@ outputs:
 
 params:
   env: production
+  ShowSearch: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowToc: true
