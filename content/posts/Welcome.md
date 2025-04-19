@@ -39,9 +39,18 @@ Now I’m giving back by writing my own guides and tutorials to help others, whi
 
 ## 🔜 Coming Soon
 
-**First tutorial dropping soon:**  
-💻 *“How to Build Your Own Cybersecurity Lab (Free Setup)”*  
-We’ll walk through setting up VirtualBox, Kali Linux, and test environments for practicing ethical hacking safely.
+**First project dropping soon:**  
+🕵️‍♂️ “Reconnaissance 101: Mapping a Real Network Using Nmap, theHarvester & Shodan”
+
+I'll walk you through how I used OSINT tools to ethically gather public information about a real organization — mapping open ports, subdomains, emails, and exposed services.
+
+Whether you're a beginner or prepping for Security+, this project will help you understand how attackers think — and how defenders can reduce their footprint.
+
+🧰 Tools Used: Nmap, theHarvester, DNSDumpster, Shodan
+📊 Deliverables: Full step-by-step guide, screenshots, GitHub repo, and blog write-up
+📚 Learning Outcomes: Real-world reconnaissance skills, ethical awareness, and network mapping
+
+Stay tuned! 🚀
 
 ---
 
