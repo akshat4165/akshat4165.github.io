@@ -1,13 +1,13 @@
-baseURL: http://localhost:1313/
+baseURL: http://akshat.github.io/posts
 languageCode: en-us
 title: Akshat On Security
 theme: PaperMod
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
   homeInfoParams:
