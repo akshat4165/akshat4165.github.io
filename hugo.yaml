@@ -8,3 +8,22 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+params:
+  env: production
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowWordCount: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  cover:
+    linkFullImages: true
+
+label:
+  text: "Home"
+  icon: /apple-touch-icon.png
+  iconHeight: 35
+
