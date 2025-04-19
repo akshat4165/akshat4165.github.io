@@ -10,6 +10,12 @@ outputs:
     - JSON # necessary for search
 
 params:
+  homeInfoParams:
+    Title: "\U0001F44B Welcome To Akshat On Security"
+    Content: Welcome to my blog 
+  fuseOpts:
+        ignoreLocation: true
+        keys: ["title", "permalink", "summary", "content"]
   socialIcons:
         - name: email
           url: "mailto:akshatagarwal4165@gmail.com"
