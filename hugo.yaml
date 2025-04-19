@@ -14,7 +14,13 @@ params:
     Title: "\U0001F44B Welcome To Akshat On Security"
     Content: Welcome to my blog 
   fuseOpts:
-        ignoreLocation: true
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
         keys: ["title", "permalink", "summary", "content"]
   socialIcons:
         - name: email
