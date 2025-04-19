@@ -2,3 +2,9 @@ baseURL: http://localhost:1313/
 languageCode: en-us
 title: Akshat On Security
 theme: PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
