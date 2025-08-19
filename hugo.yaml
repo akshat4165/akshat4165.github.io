@@ -1,56 +1,65 @@
-baseURL: http://akshat.github.io/posts
-languageCode: en-us
-title: Akshat On Security
-theme: PaperMod
+name: Deploy Hugo Site to Pages
 
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+on:
+  push:
+    branches:
+      - main   # 👈 change to "master" if that's your default branch
+  workflow_dispatch:
 
-params:
-  homeInfoParams:
-    Title: "\U0001F44B Welcome To Akshat On Security"
-    Content: 
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10
-    keys: ["title", "permalink", "summary", "content"]
-  socialIcons:
-        - name: email
-          url: "mailto:akshatagarwal4165@gmail.com"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/akshat-agarwal-50768225b/"
-        - name: github
-          url: "https://github.com/akshat4165"
-        - name: RSS
-          url: "/posts/index.xml"
-  env: production
-  ShowSearch: true
-  ShowShareButtons: true
-  ShowReadingTime: true
-  ShowToc: true
-  TocOpen: true
-  ShowWordCount: true
-  ShowBreadCrumbs: true
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
-  cover:
-    linkFullImages: true
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
-label:
-  text: "Home"
-  icon: /Users/akshat/Documents/AkshatOnSecurity/static/images/coverpic.jpeg
-  iconHeight: 35
+defaults:
+  run:
+    shell: bash
 
-menu:
-    main:
-        - identifier: search
-          name: Search
-          url: /search
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.146.0"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Hugo (extended)
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Get Theme (submodules)
+        run: git submodule update --init --recursive
+
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL ${{ steps.pages.outputs.base_url }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
