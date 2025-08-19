@@ -22,25 +22,3 @@ menu:
       name: About
       url: /about/
       weight: 20
-   
-baseURL: "https://akshatonsecurity.github.io/"
-languageCode: "en-us"
-title: "Akshat On Security"
-theme: "PaperMod"
-
-params:
-  homeInfoParams:
-    Title: "Akshat On Security"
-    Content: "Welcome to my cybersecurity blog! I write tutorials, guides, and security insights."
-
-menu:
-  main:
-    - identifier: blog
-      name: Blog
-      url: /posts/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-
