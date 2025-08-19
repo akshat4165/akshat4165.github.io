@@ -9,12 +9,12 @@ I’m excited to share that I’ve officially **completed my CompTIA Security+ c
 
 ### 📌 Why I took Security+
 - To strengthen my fundamentals in cybersecurity.
-- To improve my chances for internships abroad.
+- To improve my chances for internships.
 - To gain structured knowledge in security domains.
 
 ### 💡 My Experience
 The exam was challenging but rewarding. I prepared with:
-- [Your main resources, e.g., video courses, books, practice exams]
+- Andrew Ramdayal's Udemy Course, Jason Dion Practice Exams, my own Handwritten notes.
 - Consistent study schedule alongside college.
 
 ### 🛠️ Key Learnings
