@@ -12,7 +12,7 @@ outputs:
 params:
   homeInfoParams:
     Title: "\U0001F44B Welcome To Akshat On Security"
-    Content: Welcome to my blog 
+    Content: 
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
