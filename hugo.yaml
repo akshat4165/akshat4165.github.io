@@ -7,6 +7,9 @@ params:
   homeInfoParams:
     Title: "Akshat On Security"
     Content: "Welcome to my cybersecurity blog! I write tutorials, guides, and security insights."
+  social:
+    github: "https://github.com/akshat4165"
+    linkedin: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
 
 menu:
   main:
@@ -39,9 +42,4 @@ menu:
       name: About
       url: /about/
       weight: 20
-
-params:
-  social:
-    github: "https://github.com/akshat4165"
-    linkedin: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
 
