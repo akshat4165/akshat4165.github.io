@@ -11,7 +11,7 @@ params:
       url: "https://github.com/akshat4165"
     - name: linkedin
       url: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
-
+  ShowFooter: true
 menu:
   main:
     - identifier: blog
