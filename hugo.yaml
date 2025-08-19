@@ -7,9 +7,11 @@ params:
   homeInfoParams:
     Title: "Akshat On Security"
     Content: "Welcome to my cybersecurity blog! I write tutorials, guides, and security insights."
-  social:
-    github: "https://github.com/akshat4165"
-    linkedin: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
+  socialIcons:
+    - name: github
+      url: "https://github.com/akshat4165"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
 
 menu:
   main:
