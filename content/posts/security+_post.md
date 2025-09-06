@@ -1,13 +1,13 @@
 ---
 title: "Completed CompTIA Security+ — My Experience and Learnings"
+cover:
+  image: images/CompTIA Security+ ce certificate_1.png
+  alt: This is Security+ Cert pic
+  caption: ' '
 date: 2025-08-19T12:00:00+05:30
 draft: false
 tags: ["certification", "security+", "cybersecurity", "learning"]
 categories: ["Certifications", "Cybersecurity"]
-cover:
-  image: images/CompTIA Security+ ce certificate_1
-  alt: This is Security+ Cert pic
-  caption: ' '
 ---
 I’m excited to share that I’ve officially **completed my CompTIA Security+ certification!** 🎉  
 

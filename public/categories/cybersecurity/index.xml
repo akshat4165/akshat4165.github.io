@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Akshat On Security</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Akshat On Security</description>
+    <title>Cybersecurity on Akshat On Security</title>
+    <link>http://localhost:1313/categories/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Akshat On Security</description>
     <generator>Hugo -- 0.146.4</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Aug 2025 12:00:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting my eJPT Journey</title>
       <link>http://localhost:1313/posts/ejptv3_post/</link>
@@ -54,16 +54,6 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;-key-learnings&#34;&gt;🛠️ Key Learnings&lt;/h3&gt;
 &lt;p&gt;Some of the most valuable areas I learned:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome to Akshat On Security</title>
-      <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Akshat Agarwal&lt;/strong&gt;, a cybersecurity enthusiast and BCA (Hons.) student at &lt;strong&gt;Christ University, Bangalore, India&lt;/strong&gt;.&lt;br&gt;
-I’m currently studying for the &lt;strong&gt;CompTIA Security+ certification&lt;/strong&gt;, and this blog is where I document my journey — from tutorials and notes to projects and practical cybersecurity insights.&lt;/p&gt;
-&lt;p&gt;This platform is also part of my effort to build a strong profile for applying to internships in cybersecurity.&lt;br&gt;
-If you’re a beginner, a fellow learner, or a recruiter — you’re in the right place.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

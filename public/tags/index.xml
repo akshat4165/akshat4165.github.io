@@ -6,6 +6,56 @@
     <description>Recent content in Tags on Akshat On Security</description>
     <generator>Hugo -- 0.146.4</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 21 Aug 2025 12:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BugBounty</title>
+      <link>http://localhost:1313/tags/bugbounty/</link>
+      <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/bugbounty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certification</title>
+      <link>http://localhost:1313/tags/certification/</link>
+      <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/certification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EJPT</title>
+      <link>http://localhost:1313/tags/ejpt/</link>
+      <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/ejpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pentesting</title>
+      <link>http://localhost:1313/tags/pentesting/</link>
+      <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/pentesting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security&#43;</title>
+      <link>http://localhost:1313/tags/security&#43;/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/security&#43;/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
