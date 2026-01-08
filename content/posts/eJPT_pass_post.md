@@ -1,18 +1,18 @@
 ---
-title: "How I Cleared the eJPT: Honest Experience and What It Actually Taught Me"
+title: "How I Cleared the eJPT: Honest Experience and Learnings"
 date: 2025-11-12
 draft: false
 tags: ["eJPT", "penetration testing", "certifications", "tryhackme", "ctf", "offensive security"]
-featured_image: "static/images/Ejpt_certificate.jpeg"
+featured_image: "images/Ejpt_certificate.jpeg"
 ---
 
-![eJPT Cover Image](static/images/Ejpt_certificate.jpeg)
+![eJPT Cover Image](images/Ejpt_certificate.jpeg)
 
 ## Exam Duration and Difficulty
 
 I recently cleared the eJPT (eLearnSecurity Junior Penetration Tester) exam, and overall, it was a very solid learning experience. I completed the exam in about 35 hours, including sleep. While it wasn’t extremely hard to pass, I wouldn’t call it easy either. I’d place it somewhere between intermediate and hard, especially if you’re completely new to penetration testing.
 
-![My Exam Scores](static/images/EJPT.png)
+![My Exam Scores](images/EJPT.png)
 
 ## More About Penetration Testing Than Web Apps
 
