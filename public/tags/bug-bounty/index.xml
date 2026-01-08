@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pentesting on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/tags/pentesting/</link>
-    <description>Recent content in Pentesting on Akshat On Security</description>
+    <title>Bug-Bounty on Akshat On Security</title>
+    <link>https://akshatonsecurity.github.io/tags/bug-bounty/</link>
+    <description>Recent content in Bug-Bounty on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/tags/pentesting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://akshatonsecurity.github.io/tags/bug-bounty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting my eJPT Journey</title>
       <link>https://akshatonsecurity.github.io/posts/ejptv3_post/</link>
