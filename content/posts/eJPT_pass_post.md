@@ -2,11 +2,14 @@
 title: "How I Cleared the eJPT: Honest Experience and Learnings"
 date: 2025-11-12
 draft: false
+cover:
+  image: images/Ejpt_certificate.jpeg
+  alt: This is Ejpt Cert pic
+  caption: ' '
 tags: ["eJPT", "penetration testing", "certifications", "tryhackme", "ctf", "offensive security"]
-featured_image: "images/Ejpt_certificate.jpeg"
 ---
 
-![eJPT Cover Image](images/Ejpt_certificate.jpeg)
+
 
 ## Exam Duration and Difficulty
 
