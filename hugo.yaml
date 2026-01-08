@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: "Welcome to my cybersecurity blog!"
+    Title: "Welcome to my Cybersecurity Profile!"
   socialIcons:
     - name: github
       url: "https://github.com/akshat4165"
