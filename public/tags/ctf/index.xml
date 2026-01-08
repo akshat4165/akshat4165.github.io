@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EJPT on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/tags/ejpt/</link>
-    <description>Recent content in EJPT on Akshat On Security</description>
+    <title>Ctf on Akshat On Security</title>
+    <link>https://akshatonsecurity.github.io/tags/ctf/</link>
+    <description>Recent content in Ctf on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/tags/ejpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://akshatonsecurity.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Cleared the eJPT: Honest Experience and What It Actually Taught Me</title>
       <link>https://akshatonsecurity.github.io/posts/ejpt_pass_post/</link>
