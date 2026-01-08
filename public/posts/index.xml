@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Akshat On Security</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://akshatonsecurity.github.io/posts/</link>
     <description>Recent content in Posts on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 17:43:20 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>EJPT_pass_post</title>
-      <link>http://localhost:1313/posts/ejpt_pass_post/</link>
-      <pubDate>Thu, 08 Jan 2026 17:43:20 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ejpt_pass_post/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 19 Aug 2025 12:00:00 +0530</lastBuildDate>
+    <atom:link href="https://akshatonsecurity.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Completed CompTIA Security&#43; — My Experience and Learnings</title>
-      <link>http://localhost:1313/posts/security&#43;_post/</link>
+      <link>https://akshatonsecurity.github.io/posts/security&#43;_post/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/posts/security&#43;_post/</guid>
+      <guid>https://akshatonsecurity.github.io/posts/security&#43;_post/</guid>
       <description>&lt;p&gt;I’m excited to share that I’ve officially &lt;strong&gt;completed my CompTIA Security+ certification!&lt;/strong&gt; 🎉&lt;/p&gt;&#xA;&lt;h3 id=&#34;-why-i-took-security&#34;&gt;📌 Why I took Security+&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To strengthen my fundamentals in cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;To improve my chances for internships.&lt;/li&gt;&#xA;&lt;li&gt;To gain structured knowledge in security domains.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-my-experience&#34;&gt;💡 My Experience&lt;/h3&gt;&#xA;&lt;p&gt;The exam was challenging but rewarding. I prepared with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Andrew Ramdayal&amp;rsquo;s Udemy Course, Jason Dion Practice Exams, my own Handwritten notes.&lt;/li&gt;&#xA;&lt;li&gt;Consistent study schedule alongside college.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-key-learnings&#34;&gt;🛠️ Key Learnings&lt;/h3&gt;&#xA;&lt;p&gt;Some of the most valuable areas I learned:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to Akshat On Security</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://akshatonsecurity.github.io/posts/welcome/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://akshatonsecurity.github.io/posts/welcome/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Akshat Agarwal&lt;/strong&gt;, a cybersecurity enthusiast and BCA (Hons.) student at &lt;strong&gt;Christ University, Bangalore, India&lt;/strong&gt;.&lt;br&gt;&#xA;I’m currently studying for the &lt;strong&gt;CompTIA Security+ certification&lt;/strong&gt;, and this blog is where I document my journey — from tutorials and notes to projects and practical cybersecurity insights.&lt;/p&gt;&#xA;&lt;p&gt;This platform is also part of my effort to build a strong profile for applying to internships in cybersecurity.&lt;br&gt;&#xA;If you’re a beginner, a fellow learner, or a recruiter — you’re in the right place.&lt;/p&gt;</description>
     </item>
   </channel>

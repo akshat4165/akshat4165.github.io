@@ -2,47 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://akshatonsecurity.github.io/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://akshatonsecurity.github.io/posts/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ejpt_pass_post/</loc>
-    <lastmod>2026-01-08T17:43:20-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://akshatonsecurity.github.io/categories/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/certification/</loc>
+    <loc>https://akshatonsecurity.github.io/tags/certification/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/certifications/</loc>
+    <loc>https://akshatonsecurity.github.io/categories/certifications/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/security&#43;_post/</loc>
+    <loc>https://akshatonsecurity.github.io/posts/security&#43;_post/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cybersecurity/</loc>
+    <loc>https://akshatonsecurity.github.io/categories/cybersecurity/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <loc>https://akshatonsecurity.github.io/tags/cybersecurity/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/learning/</loc>
+    <loc>https://akshatonsecurity.github.io/tags/learning/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security&#43;/</loc>
+    <loc>https://akshatonsecurity.github.io/tags/security&#43;/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://akshatonsecurity.github.io/tags/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
+    <loc>https://akshatonsecurity.github.io/posts/welcome/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://akshatonsecurity.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://akshatonsecurity.github.io/search/</loc>
   </url>
 </urlset>
