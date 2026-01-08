@@ -1,6 +1,6 @@
 ---
 title: "How I Cleared the eJPT: Honest Experience and What It Actually Taught Me"
-date: 2026-01-09
+date: 2025-11-12
 draft: false
 tags: ["eJPT", "penetration testing", "certifications", "tryhackme", "ctf", "offensive security"]
 featured_image: "static/images/Ejpt_certificate.jpeg"
