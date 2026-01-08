@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning on Akshat On Security</title>
     <link>http://localhost:1313/categories/learning/</link>
     <description>Recent content in Learning on Akshat On Security</description>
-    <generator>Hugo -- 0.146.4</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Aug 2025 12:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/learning/index.xml" rel="self" type="application/rss+xml" />
@@ -13,26 +13,7 @@
       <link>http://localhost:1313/posts/ejptv3_post/</link>
       <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/ejptv3_post/</guid>
-      <description>&lt;p&gt;🚀 &lt;strong&gt;Starting My eJPT Journey!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’ve officially enrolled in the &lt;strong&gt;eLearnSecurity Junior Penetration Tester (eJPT)&lt;/strong&gt; course 🎯&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Investment:&lt;/strong&gt; $250&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; Complete before &lt;strong&gt;November 2025&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The eJPT is an entry-level penetration testing certification that covers network pentesting, web app basics, and exploitation methodology. I’m taking this course to strengthen my fundamentals and prepare for bug bounty hunting and more advanced certs.&lt;/p&gt;
-&lt;h3 id=&#34;why-im-doing-this&#34;&gt;Why I’m doing this&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Build a solid foundation in penetration testing.&lt;/li&gt;
-&lt;li&gt;Prepare for bug bounty hunting (web focus) and certifications like eCPPT/OSCP later.&lt;/li&gt;
-&lt;li&gt;Learn in public — I’ll post updates, lessons learned, and lab writeups here.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-ill-share&#34;&gt;What I’ll share&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Weekly progress updates and lab highlights.&lt;/li&gt;
-&lt;li&gt;Short writeups for interesting labs and techniques.&lt;/li&gt;
-&lt;li&gt;Tools and resources I found useful.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you’ve taken eJPT or are preparing, I’d love your tips! 🙌&lt;/p&gt;</description>
+      <description>&lt;p&gt;🚀 &lt;strong&gt;Starting My eJPT Journey!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve officially enrolled in the &lt;strong&gt;eLearnSecurity Junior Penetration Tester (eJPT)&lt;/strong&gt; course 🎯&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Investment:&lt;/strong&gt; $250&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; Complete before &lt;strong&gt;November 2025&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The eJPT is an entry-level penetration testing certification that covers network pentesting, web app basics, and exploitation methodology. I’m taking this course to strengthen my fundamentals and prepare for bug bounty hunting and more advanced certs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-im-doing-this&#34;&gt;Why I’m doing this&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build a solid foundation in penetration testing.&lt;/li&gt;&#xA;&lt;li&gt;Prepare for bug bounty hunting (web focus) and certifications like eCPPT/OSCP later.&lt;/li&gt;&#xA;&lt;li&gt;Learn in public — I’ll post updates, lessons learned, and lab writeups here.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;what-ill-share&#34;&gt;What I’ll share&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weekly progress updates and lab highlights.&lt;/li&gt;&#xA;&lt;li&gt;Short writeups for interesting labs and techniques.&lt;/li&gt;&#xA;&lt;li&gt;Tools and resources I found useful.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you’ve taken eJPT or are preparing, I’d love your tips! 🙌&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

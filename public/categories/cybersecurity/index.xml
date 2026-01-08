@@ -1,59 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cybersecurity on Akshat On Security</title>
     <link>http://localhost:1313/categories/cybersecurity/</link>
     <description>Recent content in Cybersecurity on Akshat On Security</description>
-    <generator>Hugo -- 0.146.4</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Aug 2025 12:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 12:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Starting my eJPT Journey</title>
-      <link>http://localhost:1313/posts/ejptv3_post/</link>
-      <pubDate>Thu, 21 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/posts/ejptv3_post/</guid>
-      <description>&lt;p&gt;🚀 &lt;strong&gt;Starting My eJPT Journey!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’ve officially enrolled in the &lt;strong&gt;eLearnSecurity Junior Penetration Tester (eJPT)&lt;/strong&gt; course 🎯&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Investment:&lt;/strong&gt; $250&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; Complete before &lt;strong&gt;November 2025&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The eJPT is an entry-level penetration testing certification that covers network pentesting, web app basics, and exploitation methodology. I’m taking this course to strengthen my fundamentals and prepare for bug bounty hunting and more advanced certs.&lt;/p&gt;
-&lt;h3 id=&#34;why-im-doing-this&#34;&gt;Why I’m doing this&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Build a solid foundation in penetration testing.&lt;/li&gt;
-&lt;li&gt;Prepare for bug bounty hunting (web focus) and certifications like eCPPT/OSCP later.&lt;/li&gt;
-&lt;li&gt;Learn in public — I’ll post updates, lessons learned, and lab writeups here.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;what-ill-share&#34;&gt;What I’ll share&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Weekly progress updates and lab highlights.&lt;/li&gt;
-&lt;li&gt;Short writeups for interesting labs and techniques.&lt;/li&gt;
-&lt;li&gt;Tools and resources I found useful.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you’ve taken eJPT or are preparing, I’d love your tips! 🙌&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Completed CompTIA Security&#43; — My Experience and Learnings</title>
       <link>http://localhost:1313/posts/security&#43;_post/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/security&#43;_post/</guid>
-      <description>&lt;p&gt;I’m excited to share that I’ve officially &lt;strong&gt;completed my CompTIA Security+ certification!&lt;/strong&gt; 🎉&lt;/p&gt;
-&lt;h3 id=&#34;-why-i-took-security&#34;&gt;📌 Why I took Security+&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;To strengthen my fundamentals in cybersecurity.&lt;/li&gt;
-&lt;li&gt;To improve my chances for internships.&lt;/li&gt;
-&lt;li&gt;To gain structured knowledge in security domains.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-my-experience&#34;&gt;💡 My Experience&lt;/h3&gt;
-&lt;p&gt;The exam was challenging but rewarding. I prepared with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Andrew Ramdayal&amp;rsquo;s Udemy Course, Jason Dion Practice Exams, my own Handwritten notes.&lt;/li&gt;
-&lt;li&gt;Consistent study schedule alongside college.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-key-learnings&#34;&gt;🛠️ Key Learnings&lt;/h3&gt;
-&lt;p&gt;Some of the most valuable areas I learned:&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’m excited to share that I’ve officially &lt;strong&gt;completed my CompTIA Security+ certification!&lt;/strong&gt; 🎉&lt;/p&gt;&#xA;&lt;h3 id=&#34;-why-i-took-security&#34;&gt;📌 Why I took Security+&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To strengthen my fundamentals in cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;To improve my chances for internships.&lt;/li&gt;&#xA;&lt;li&gt;To gain structured knowledge in security domains.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-my-experience&#34;&gt;💡 My Experience&lt;/h3&gt;&#xA;&lt;p&gt;The exam was challenging but rewarding. I prepared with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Andrew Ramdayal&amp;rsquo;s Udemy Course, Jason Dion Practice Exams, my own Handwritten notes.&lt;/li&gt;&#xA;&lt;li&gt;Consistent study schedule alongside college.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-key-learnings&#34;&gt;🛠️ Key Learnings&lt;/h3&gt;&#xA;&lt;p&gt;Some of the most valuable areas I learned:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

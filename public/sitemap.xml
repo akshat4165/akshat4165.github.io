@@ -3,45 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bugbounty/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/certification/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/certifications/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/cybersecurity/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ejpt/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ejpt/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/learning/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pentesting/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ejptv3_post/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
+    <loc>http://localhost:1313/posts/ejpt_pass_post/</loc>
+    <lastmod>2026-01-08T17:43:20-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-21T12:00:00+05:30</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-08-19T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/certification/</loc>
+    <lastmod>2025-08-19T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/certifications/</loc>
+    <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/security&#43;_post/</loc>
+    <lastmod>2025-08-19T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cybersecurity/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cybersecurity/</loc>
@@ -51,6 +33,9 @@
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/security&#43;/</loc>
+    <lastmod>2025-08-19T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/welcome/</loc>
