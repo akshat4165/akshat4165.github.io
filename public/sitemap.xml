@@ -3,12 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://akshatonsecurity.github.io/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/certifications/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+    <loc>https://akshatonsecurity.github.io/tags/application-security/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://akshatonsecurity.github.io/tags/ctf/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/tags/owasp/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/posts/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/tags/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/tags/tryhackme/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/tags/walkthrough/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/tags/certifications/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://akshatonsecurity.github.io/tags/ejpt/</loc>
@@ -21,15 +42,6 @@
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://akshatonsecurity.github.io/tags/penetration-testing/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/tryhackme/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://akshatonsecurity.github.io/tags/bug-bounty/</loc>
@@ -70,6 +82,8 @@
   </url><url>
     <loc>https://akshatonsecurity.github.io/posts/welcome/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</loc>
   </url><url>
     <loc>https://akshatonsecurity.github.io/archives/</loc>
   </url><url>

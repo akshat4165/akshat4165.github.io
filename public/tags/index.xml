@@ -6,20 +6,48 @@
     <description>Recent content in Tags on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://akshatonsecurity.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Certifications</title>
-      <link>https://akshatonsecurity.github.io/tags/certifications/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/certifications/</guid>
+      <title>Application Security</title>
+      <link>https://akshatonsecurity.github.io/tags/application-security/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://akshatonsecurity.github.io/tags/application-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Ctf</title>
       <link>https://akshatonsecurity.github.io/tags/ctf/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://akshatonsecurity.github.io/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OWASP</title>
+      <link>https://akshatonsecurity.github.io/tags/owasp/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://akshatonsecurity.github.io/tags/owasp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tryhackme</title>
+      <link>https://akshatonsecurity.github.io/tags/tryhackme/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://akshatonsecurity.github.io/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Walkthrough</title>
+      <link>https://akshatonsecurity.github.io/tags/walkthrough/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://akshatonsecurity.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certifications</title>
+      <link>https://akshatonsecurity.github.io/tags/certifications/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://akshatonsecurity.github.io/tags/certifications/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +69,6 @@
       <link>https://akshatonsecurity.github.io/tags/penetration-testing/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://akshatonsecurity.github.io/tags/penetration-testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tryhackme</title>
-      <link>https://akshatonsecurity.github.io/tags/tryhackme/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
