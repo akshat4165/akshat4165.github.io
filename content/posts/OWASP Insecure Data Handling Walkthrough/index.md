@@ -32,13 +32,13 @@ Never embed access credentials (i.e., to a third-party service) in source code, 
 Cryptographic failures happen when sensitive data isn't adequately protected due to lack of encryption, faulty implementation, or insufficient security measures. This includes storing passwords without hashing, using outdated or weak algorithms (such as MD5, SHA1, or DES), exposing encryption keys, or failing to secure data during transmission.
 
 
-![](image1.png)
+![](datahandlingimg1.png)
 
 we will capture this page request in burpsuite and send the request to intruder.
 
-![](image2.png)
+![](datahandlingimg2.png)
 now that we have set our payload, we can start the Attack.
-![](image3.png)
+![](datahandlingimg3.png)
 as you can see we got our flag the XOR key is `KEY1`.
 
 Ans. THM{WEAK_CRYPTO_FLAG}
@@ -53,7 +53,7 @@ Input validation and sanitisation is must to prevent these types of attacks.
 
 This CTF Demonstrates the Server Side Template Injection attack
 
-![](image4.png)here we have used 
+![](datahandlingimg4.png)here we have used 
 `{{ request.application.__globals__.__builtins__.open('flag.txt').read() }}`
 and obtained the flag.
 
@@ -88,7 +88,7 @@ gASVMwAAAAAAAACMCGJ1aWx0aW5zlIwEZXZhbJSTlIwXb3BlbignZmxhZy50eHQnKS5yZWFkKCmUhZRS
 this will be the base64 version of the payload.
 
 
-![](image5.png)
+![](datahandlingimg5.png)
 and there we got we got our flag.
 
 Ans. THM{INSECURE_DESERIALIZATION}
