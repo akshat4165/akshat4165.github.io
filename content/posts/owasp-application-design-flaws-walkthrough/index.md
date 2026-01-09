@@ -51,10 +51,10 @@ In 2017, Uber exposed a backup AWS S3 bucket with sensitive user dta, including 
 
 The verbose error is something which gives your the leaks in the error message and it is an application security misconfiguration, when a developer makes it easy by providing detailed verbose errors in the error message.
 
-![](images/designflawimg2.png)
+![](designflawimg2.png)
 
 
-![](images/designflawimg1.png)
+![](designflawimg1.png)
 
 capture the request with the burp suite and send it to the repeater. 
 
@@ -90,15 +90,16 @@ The vulnerability does not depend on the code but the software it is dependent o
 
 ## FLAG 2
 
-![](images/designflawimg3.png)
+![](designflawimg3.png)
 Capture /api/process with burpsuite.
-![](images/designflawimg4.png)
+![](designflawimg4.png)
 change `GET` to `POST`.
-![](images/designflawimg5.png)
+![](designflawimg5.png)
 
 And we get this, this might be the hint that we have to add content-type as application/json and then process the request.
 
-```from flask import Flask, render_template, request, jsonify
+```copycode
+from flask import Flask, render_template, request, jsonify
 import sys
 import os
 
@@ -149,7 +150,7 @@ if __name__ == '__main__':
 
 this is the code give in the task file, if we check the line we have to use the value `"data": "debug"` 
 
-![](images/designflawimg6.png)
+![](designflawimg6.png)
 
 so as you can see we used `Content-Type = application/json` and `"data":"debug"`
 
@@ -179,21 +180,21 @@ These types of failures happen when cryptography is used incorrectly or not at a
 
 
 
-![](images/designflawimg7.png)
+![](designflawimg7.png)
 
 we can see the encrypted text here.
 ```Nzd42HZGgUIUlpILZRv0jeIXp1WtCErwR+j/w/lnKbmug31opX0BWy+pwK92rkhjwdf94mgHfLtF26X6B3pe2fhHXzIGnnvVruH7683KwvzZ6+QKybFWaedAEtknYkhe
 ```
 
-![](images/designflawimg8.png)
+![](designflawimg8.png)
 
 he we can see that in the source code there is a file name `decrypt.js`
-![](images/designflawimg9.png)
+![](designflawimg9.png)
 here we can see the encryption used here is `ECB` and the secret-key is `my-secret-key-16`
 
 so we can use [Online ECB Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption)
 
-![](images/designflawimg10.png)
+![](designflawimg10.png)
 
 And here we go, we got out flag.
 
@@ -217,18 +218,18 @@ we can't fix the insecure design flaws, It's built into the workflow, logic and 
 - Test or debug bypasses left in production
 - No consistent abuse-case review or AI threat modelling 
 
-![](images/designflawimg11.png)
+![](designflawimg11.png)
 so here we can see the, it says the must be downloaded on mobile. 
 but obviously its and insecure design flaw and you can see the app has private messages
 
 capture the `/api/users/` request in the burpsuite.
 
-![](images/designflawimg12.png)
+![](designflawimg12.png)
 
 so here we can see some users and their role.
 
 we will try another request to fetch the admin messages `/api/messages/admin`
-![](images/designflawimg13.png)
+![](designflawimg13.png)
 here you can see we got the flag as due to insecure design, some backend api endpoints are left open to be traversed.
 
 Ans. THM{1NS3CUR3_D35IGN_4SSUMPT10N}
