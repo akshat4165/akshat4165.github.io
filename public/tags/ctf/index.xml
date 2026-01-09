@@ -10,9 +10,9 @@
     <atom:link href="https://akshatonsecurity.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TryHackMe OWASP Application Design Flaws Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</link>
+      <link>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/application_design_flaw/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</guid>
+      <guid>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/application_design_flaw/</guid>
       <description>&lt;h2 id=&#34;these-design-flaws-contain&#34;&gt;These Design Flaws Contain:&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. AS02: Security Misconfigurations&#xA;2. AS03: Software Supply Chain Failures&#xA;3. AS04: Cryptographic Failures&#xA;4. AS06: Insecure Design&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;as02-security-misconfigurations&#34;&gt;AS02: Security Misconfigurations&lt;/h2&gt;&#xA;&lt;p&gt;Happens when system, servers or applications are deployed with unsafe defaults, incomplete settings, or exposed services. These are not code bugs but mistakes in how the environment, software or network is set up. They create easy entry points for attackers.&lt;/p&gt;&#xA;&lt;p&gt;even a small misconfig can expose sensitive data, enable priv esc, of give foothold to the attackers. Modern applications rely on complex stacks, cloud services, and third-party APIs. A single exposed admin panel, an open storage bucket, or misconfigured permissions can compromise the entire system.&lt;/p&gt;</description>
     </item>
     <item>
