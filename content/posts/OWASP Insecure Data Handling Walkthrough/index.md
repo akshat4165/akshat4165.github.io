@@ -1,3 +1,20 @@
+---
+title: "TryHackMe OWASP Insecure Data Handling Walkthrough"
+date: 2026-01-09
+tags:
+  - tryhackme
+  - ctf
+  - OWASP
+  - Application Security
+  - walkthrough
+draft: false
+cover:
+  image: images/OWASP Top 10 walkthrough.png
+  alt: This is Thumbnail
+  caption: ' '
+---
+
+
 This room will introduce you to 3 elements of the OWASP Top 10 list (2025). In this room, you will learn about the elements relating to application behaviour and user input. We will cover these vulnerabilities briefly, how to prevent them, and finally, you will practice exploiting these vulnerabilities:
 
 - A04: Cryptographic Failures
