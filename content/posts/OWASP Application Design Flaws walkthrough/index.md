@@ -8,6 +8,10 @@ tags:
   - Application Security
   - walkthrough
 draft: false
+cover:
+  image: images/OWASP Top 10 walkthrough.png
+  alt: This is Thumbnail
+  caption: ' '
 ---
 
 ## These Design Flaws Contain:
@@ -47,9 +51,9 @@ In 2017, Uber exposed a backup AWS S3 bucket with sensitive user dta, including 
 
 The verbose error is something which gives your the leaks in the error message and it is an application security misconfiguration, when a developer makes it easy by providing detailed verbose errors in the error message.
 
-![](TryHackMe%20Labs/Application%20Design%20Flaws/image2.png)
+![](image2.png)
 
-![](TryHackMe%20Labs/Application%20Design%20Flaws/image1.png)
+![](image1.png)
 
 capture the request with the burp suite and send it to the repeater. 
 
@@ -85,15 +89,16 @@ The vulnerability does not depend on the code but the software it is dependent o
 
 ## FLAG 2
 
-![](TryHackMe%20Labs/Application%20Design%20Flaws/image3.png)
+![](image3.png)
 Capture /api/process with burpsuite.
-![](TryHackMe%20Labs/Application%20Design%20Flaws/image4.png)
+![](image4.png)
 change `GET` to `POST`.
-![](TryHackMe%20Labs/Application%20Design%20Flaws/image5.png)
+![](image5.png)
 
 And we get this, this might be the hint that we have to add content-type as application/json and then process the request.
 
-```from flask import Flask, render_template, request, jsonify
+```
+from flask import Flask, render_template, request, jsonify
 import sys
 import os
 
@@ -140,8 +145,6 @@ def health():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
 
-```
-```
 ```
 
 this is the code give in the task file, if we check the line we have to use the value `"data": "debug"` 

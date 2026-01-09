@@ -26,6 +26,9 @@
     <loc>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</loc>
+    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://akshatonsecurity.github.io/tags/walkthrough/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -82,8 +85,6 @@
   </url><url>
     <loc>https://akshatonsecurity.github.io/posts/welcome/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</loc>
   </url><url>
     <loc>https://akshatonsecurity.github.io/archives/</loc>
   </url><url>
