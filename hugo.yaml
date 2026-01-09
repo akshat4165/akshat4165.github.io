@@ -12,6 +12,20 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/akshat-agarwal-50768225b"
   ShowFooter: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
+  ShareButtons:
+    - linkedin
+    - twitter
+    - whatsapp
+    - telegram
+    - reddit
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowToc: true
+  TocOpen: false
+
 menu:
   main:
     - identifier: blog
@@ -22,3 +36,6 @@ menu:
       name: About
       url: /about/
       weight: 20
+markup:
+  highlight:
+    noClasses: false
