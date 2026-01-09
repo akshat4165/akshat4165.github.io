@@ -53,6 +53,7 @@ The verbose error is something which gives your the leaks in the error message a
 
 ![](images/designflawimg2.png)
 
+
 ![](images/designflawimg1.png)
 
 capture the request with the burp suite and send it to the repeater. 
@@ -97,8 +98,7 @@ change `GET` to `POST`.
 
 And we get this, this might be the hint that we have to add content-type as application/json and then process the request.
 
-```
-from flask import Flask, render_template, request, jsonify
+```from flask import Flask, render_template, request, jsonify
 import sys
 import os
 
@@ -182,7 +182,8 @@ These types of failures happen when cryptography is used incorrectly or not at a
 ![](images/designflawimg7.png)
 
 we can see the encrypted text here.
-`Nzd42HZGgUIUlpILZRv0jeIXp1WtCErwR+j/w/lnKbmug31opX0BWy+pwK92rkhjwdf94mgHfLtF26X6B3pe2fhHXzIGnnvVruH7683KwvzZ6+QKybFWaedAEtknYkhe`
+```Nzd42HZGgUIUlpILZRv0jeIXp1WtCErwR+j/w/lnKbmug31opX0BWy+pwK92rkhjwdf94mgHfLtF26X6B3pe2fhHXzIGnnvVruH7683KwvzZ6+QKybFWaedAEtknYkhe
+```
 
 ![](images/designflawimg8.png)
 
