@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://akshatonsecurity.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/application-security/</loc>
+    <loc>http://localhost:1313/tags/application-security/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/ctf/</loc>
+    <loc>http://localhost:1313/tags/ctf/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/owasp/</loc>
+    <loc>http://localhost:1313/tags/owasp/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/tryhackme/</loc>
+    <loc>http://localhost:1313/tags/tryhackme/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</loc>
+    <loc>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</loc>
+    <loc>http://localhost:1313/posts/owasp-insecure-data-handling-walkthrough/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/walkthrough/</loc>
+    <loc>http://localhost:1313/tags/walkthrough/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/certifications/</loc>
+    <loc>http://localhost:1313/tags/certifications/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/ejpt/</loc>
+    <loc>http://localhost:1313/tags/ejpt/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/ejpt_pass_post/</loc>
+    <loc>http://localhost:1313/posts/ejpt_pass_post/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/offensive-security/</loc>
+    <loc>http://localhost:1313/tags/offensive-security/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/penetration-testing/</loc>
+    <loc>http://localhost:1313/tags/penetration-testing/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/bug-bounty/</loc>
+    <loc>http://localhost:1313/tags/bug-bounty/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/certification/</loc>
+    <loc>http://localhost:1313/tags/certification/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/categories/certifications/</loc>
+    <loc>http://localhost:1313/categories/certifications/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/categories/learning/</loc>
+    <loc>http://localhost:1313/categories/learning/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/pentesting/</loc>
+    <loc>http://localhost:1313/tags/pentesting/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/ejptv3_post/</loc>
+    <loc>http://localhost:1313/posts/ejptv3_post/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/security&#43;_post/</loc>
+    <loc>http://localhost:1313/posts/security&#43;_post/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/categories/cybersecurity/</loc>
+    <loc>http://localhost:1313/categories/cybersecurity/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/cybersecurity/</loc>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/learning/</loc>
+    <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/tags/security&#43;/</loc>
+    <loc>http://localhost:1313/tags/security&#43;/</loc>
     <lastmod>2025-08-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/posts/welcome/</loc>
+    <loc>http://localhost:1313/posts/welcome/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://akshatonsecurity.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

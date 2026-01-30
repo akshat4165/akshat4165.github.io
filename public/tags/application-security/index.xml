@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Application Security on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/tags/application-security/</link>
+    <link>http://localhost:1313/tags/application-security/</link>
     <description>Recent content in Application Security on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TryHackMe OWASP Application Design Flaws Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</link>
+      <link>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</guid>
+      <guid>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</guid>
       <description>&lt;h2 id=&#34;these-design-flaws-contain&#34;&gt;These Design Flaws Contain:&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. AS02: Security Misconfigurations&#xA;2. AS03: Software Supply Chain Failures&#xA;3. AS04: Cryptographic Failures&#xA;4. AS06: Insecure Design&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;as02-security-misconfigurations&#34;&gt;AS02: Security Misconfigurations&lt;/h2&gt;&#xA;&lt;p&gt;Happens when system, servers or applications are deployed with unsafe defaults, incomplete settings, or exposed services. These are not code bugs but mistakes in how the environment, software or network is set up. They create easy entry points for attackers.&lt;/p&gt;&#xA;&lt;p&gt;even a small misconfig can expose sensitive data, enable priv esc, of give foothold to the attackers. Modern applications rely on complex stacks, cloud services, and third-party APIs. A single exposed admin panel, an open storage bucket, or misconfigured permissions can compromise the entire system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TryHackMe OWASP Insecure Data Handling Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</link>
+      <link>http://localhost:1313/posts/owasp-insecure-data-handling-walkthrough/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</guid>
+      <guid>http://localhost:1313/posts/owasp-insecure-data-handling-walkthrough/</guid>
       <description>&lt;p&gt;This room will introduce you to 3 elements of the OWASP Top 10 list (2025). In this room, you will learn about the elements relating to application behaviour and user input. We will cover these vulnerabilities briefly, how to prevent them, and finally, you will practice exploiting these vulnerabilities:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A04: Cryptographic Failures&lt;/li&gt;&#xA;&lt;li&gt;A05: Injection&lt;/li&gt;&#xA;&lt;li&gt;A08: Software or Data Integrity Failures&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;how-to-prevent-cryptographic-failures&#34;&gt;How to Prevent Cryptographic Failures&lt;/h3&gt;&#xA;&lt;p&gt;Preventing cryptographic failures starts with choosing strong, modern algorithms and implementing them properly. Sensitive information such as passwords should be hashed using robust, slow hashing functions like bcrypt, scrypt, or Argon2. When encrypting data, avoid creating your own algorithms; instead, rely on trusted, industry-standard libraries.&lt;/p&gt;</description>
     </item>
   </channel>

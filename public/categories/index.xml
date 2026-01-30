@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Certifications</title>
-      <link>https://akshatonsecurity.github.io/categories/certifications/</link>
+      <link>http://localhost:1313/categories/certifications/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/categories/certifications/</guid>
+      <guid>http://localhost:1313/categories/certifications/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning</title>
-      <link>https://akshatonsecurity.github.io/categories/learning/</link>
+      <link>http://localhost:1313/categories/learning/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/categories/learning/</guid>
+      <guid>http://localhost:1313/categories/learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://akshatonsecurity.github.io/categories/cybersecurity/</link>
+      <link>http://localhost:1313/categories/cybersecurity/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>https://akshatonsecurity.github.io/categories/cybersecurity/</guid>
+      <guid>http://localhost:1313/categories/cybersecurity/</guid>
       <description></description>
     </item>
   </channel>

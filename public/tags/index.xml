@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application Security</title>
-      <link>https://akshatonsecurity.github.io/tags/application-security/</link>
+      <link>http://localhost:1313/tags/application-security/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/application-security/</guid>
+      <guid>http://localhost:1313/tags/application-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Ctf</title>
-      <link>https://akshatonsecurity.github.io/tags/ctf/</link>
+      <link>http://localhost:1313/tags/ctf/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/ctf/</guid>
+      <guid>http://localhost:1313/tags/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>OWASP</title>
-      <link>https://akshatonsecurity.github.io/tags/owasp/</link>
+      <link>http://localhost:1313/tags/owasp/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/owasp/</guid>
+      <guid>http://localhost:1313/tags/owasp/</guid>
       <description></description>
     </item>
     <item>
       <title>Tryhackme</title>
-      <link>https://akshatonsecurity.github.io/tags/tryhackme/</link>
+      <link>http://localhost:1313/tags/tryhackme/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/tryhackme/</guid>
+      <guid>http://localhost:1313/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
       <title>Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/tags/walkthrough/</link>
+      <link>http://localhost:1313/tags/walkthrough/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/walkthrough/</guid>
+      <guid>http://localhost:1313/tags/walkthrough/</guid>
       <description></description>
     </item>
     <item>
       <title>Certifications</title>
-      <link>https://akshatonsecurity.github.io/tags/certifications/</link>
+      <link>http://localhost:1313/tags/certifications/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/certifications/</guid>
+      <guid>http://localhost:1313/tags/certifications/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ejpt</title>
-      <link>https://akshatonsecurity.github.io/tags/ejpt/</link>
+      <title>EJPT</title>
+      <link>http://localhost:1313/tags/ejpt/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/ejpt/</guid>
+      <guid>http://localhost:1313/tags/ejpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Offensive Security</title>
-      <link>https://akshatonsecurity.github.io/tags/offensive-security/</link>
+      <link>http://localhost:1313/tags/offensive-security/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/offensive-security/</guid>
+      <guid>http://localhost:1313/tags/offensive-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Penetration Testing</title>
-      <link>https://akshatonsecurity.github.io/tags/penetration-testing/</link>
+      <link>http://localhost:1313/tags/penetration-testing/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/penetration-testing/</guid>
+      <guid>http://localhost:1313/tags/penetration-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug-Bounty</title>
-      <link>https://akshatonsecurity.github.io/tags/bug-bounty/</link>
+      <link>http://localhost:1313/tags/bug-bounty/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/bug-bounty/</guid>
+      <guid>http://localhost:1313/tags/bug-bounty/</guid>
       <description></description>
     </item>
     <item>
       <title>Certification</title>
-      <link>https://akshatonsecurity.github.io/tags/certification/</link>
+      <link>http://localhost:1313/tags/certification/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/certification/</guid>
+      <guid>http://localhost:1313/tags/certification/</guid>
       <description></description>
     </item>
     <item>
       <title>Pentesting</title>
-      <link>https://akshatonsecurity.github.io/tags/pentesting/</link>
+      <link>http://localhost:1313/tags/pentesting/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/pentesting/</guid>
+      <guid>http://localhost:1313/tags/pentesting/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://akshatonsecurity.github.io/tags/cybersecurity/</link>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/cybersecurity/</guid>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning</title>
-      <link>https://akshatonsecurity.github.io/tags/learning/</link>
+      <link>http://localhost:1313/tags/learning/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/learning/</guid>
+      <guid>http://localhost:1313/tags/learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Security&#43;</title>
-      <link>https://akshatonsecurity.github.io/tags/security&#43;/</link>
+      <link>http://localhost:1313/tags/security&#43;/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>https://akshatonsecurity.github.io/tags/security&#43;/</guid>
+      <guid>http://localhost:1313/tags/security&#43;/</guid>
       <description></description>
     </item>
   </channel>

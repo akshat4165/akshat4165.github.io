@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Akshat On Security</title>
-    <link>https://akshatonsecurity.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://akshatonsecurity.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TryHackMe OWASP Application Design Flaws Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</link>
+      <link>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/owasp-application-design-flaws-walkthrough/</guid>
+      <guid>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</guid>
       <description>&lt;h2 id=&#34;these-design-flaws-contain&#34;&gt;These Design Flaws Contain:&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. AS02: Security Misconfigurations&#xA;2. AS03: Software Supply Chain Failures&#xA;3. AS04: Cryptographic Failures&#xA;4. AS06: Insecure Design&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;as02-security-misconfigurations&#34;&gt;AS02: Security Misconfigurations&lt;/h2&gt;&#xA;&lt;p&gt;Happens when system, servers or applications are deployed with unsafe defaults, incomplete settings, or exposed services. These are not code bugs but mistakes in how the environment, software or network is set up. They create easy entry points for attackers.&lt;/p&gt;&#xA;&lt;p&gt;even a small misconfig can expose sensitive data, enable priv esc, of give foothold to the attackers. Modern applications rely on complex stacks, cloud services, and third-party APIs. A single exposed admin panel, an open storage bucket, or misconfigured permissions can compromise the entire system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TryHackMe OWASP Insecure Data Handling Walkthrough</title>
-      <link>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</link>
+      <link>http://localhost:1313/posts/owasp-insecure-data-handling-walkthrough/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/owasp-insecure-data-handling-walkthrough/</guid>
+      <guid>http://localhost:1313/posts/owasp-insecure-data-handling-walkthrough/</guid>
       <description>&lt;p&gt;This room will introduce you to 3 elements of the OWASP Top 10 list (2025). In this room, you will learn about the elements relating to application behaviour and user input. We will cover these vulnerabilities briefly, how to prevent them, and finally, you will practice exploiting these vulnerabilities:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A04: Cryptographic Failures&lt;/li&gt;&#xA;&lt;li&gt;A05: Injection&lt;/li&gt;&#xA;&lt;li&gt;A08: Software or Data Integrity Failures&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;how-to-prevent-cryptographic-failures&#34;&gt;How to Prevent Cryptographic Failures&lt;/h3&gt;&#xA;&lt;p&gt;Preventing cryptographic failures starts with choosing strong, modern algorithms and implementing them properly. Sensitive information such as passwords should be hashed using robust, slow hashing functions like bcrypt, scrypt, or Argon2. When encrypting data, avoid creating your own algorithms; instead, rely on trusted, industry-standard libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Cleared the eJPT: Honest Experience and Learnings</title>
-      <link>https://akshatonsecurity.github.io/posts/ejpt_pass_post/</link>
+      <link>http://localhost:1313/posts/ejpt_pass_post/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/ejpt_pass_post/</guid>
+      <guid>http://localhost:1313/posts/ejpt_pass_post/</guid>
       <description>&lt;h2 id=&#34;exam-duration-and-difficulty&#34;&gt;Exam Duration and Difficulty&lt;/h2&gt;&#xA;&lt;p&gt;I recently cleared the eJPT (eLearnSecurity Junior Penetration Tester) exam, and overall, it was a very solid learning experience. I completed the exam in about 35 hours, including sleep. While it wasn’t extremely hard to pass, I wouldn’t call it easy either. I’d place it somewhere between intermediate and hard, especially if you’re completely new to penetration testing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/EJPT.png&#34; alt=&#34;My Exam Scores&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;more-about-penetration-testing-than-web-apps&#34;&gt;More About Penetration Testing Than Web Apps&lt;/h2&gt;&#xA;&lt;p&gt;One thing that surprised me was that the exam is not very focused on web application penetration testing. There is some web-related work, but most of the exam feels more like real-world network and system-level penetration testing. You spend more time enumerating services, exploiting misconfigurations, moving through systems, and understanding how different parts of the network connect, which I personally enjoyed a lot.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Starting my eJPT Journey</title>
-      <link>https://akshatonsecurity.github.io/posts/ejptv3_post/</link>
+      <link>http://localhost:1313/posts/ejptv3_post/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/ejptv3_post/</guid>
+      <guid>http://localhost:1313/posts/ejptv3_post/</guid>
       <description>&lt;p&gt;🚀 &lt;strong&gt;Starting My eJPT Journey!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve officially enrolled in the &lt;strong&gt;eLearnSecurity Junior Penetration Tester (eJPT)&lt;/strong&gt; course 🎯&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Investment:&lt;/strong&gt; $250&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; Complete before &lt;strong&gt;November 2025&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The eJPT is an entry-level penetration testing certification that covers network pentesting, web app basics, and exploitation methodology. I’m taking this course to strengthen my fundamentals and prepare for bug bounty hunting and more advanced certs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-im-doing-this&#34;&gt;Why I’m doing this&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build a solid foundation in penetration testing.&lt;/li&gt;&#xA;&lt;li&gt;Prepare for bug bounty hunting (web focus) and certifications like eCPPT/OSCP later.&lt;/li&gt;&#xA;&lt;li&gt;Learn in public — I’ll post updates, lessons learned, and lab writeups here.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;what-ill-share&#34;&gt;What I’ll share&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weekly progress updates and lab highlights.&lt;/li&gt;&#xA;&lt;li&gt;Short writeups for interesting labs and techniques.&lt;/li&gt;&#xA;&lt;li&gt;Tools and resources I found useful.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you’ve taken eJPT or are preparing, I’d love your tips! 🙌&lt;/p&gt;</description>
     </item>
     <item>
       <title>Completed CompTIA Security&#43; — My Experience and Learnings</title>
-      <link>https://akshatonsecurity.github.io/posts/security&#43;_post/</link>
+      <link>http://localhost:1313/posts/security&#43;_post/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0530</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/security&#43;_post/</guid>
+      <guid>http://localhost:1313/posts/security&#43;_post/</guid>
       <description>&lt;p&gt;I’m excited to share that I’ve officially &lt;strong&gt;completed my CompTIA Security+ certification!&lt;/strong&gt; 🎉&lt;/p&gt;&#xA;&lt;h3 id=&#34;-why-i-took-security&#34;&gt;📌 Why I took Security+&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To strengthen my fundamentals in cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;To improve my chances for internships.&lt;/li&gt;&#xA;&lt;li&gt;To gain structured knowledge in security domains.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-my-experience&#34;&gt;💡 My Experience&lt;/h3&gt;&#xA;&lt;p&gt;The exam was challenging but rewarding. I prepared with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Andrew Ramdayal&amp;rsquo;s Udemy Course, Jason Dion Practice Exams, my own Handwritten notes.&lt;/li&gt;&#xA;&lt;li&gt;Consistent study schedule alongside college.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-key-learnings&#34;&gt;🛠️ Key Learnings&lt;/h3&gt;&#xA;&lt;p&gt;Some of the most valuable areas I learned:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to Akshat On Security</title>
-      <link>https://akshatonsecurity.github.io/posts/welcome/</link>
+      <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://akshatonsecurity.github.io/posts/welcome/</guid>
+      <guid>http://localhost:1313/posts/welcome/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Akshat Agarwal&lt;/strong&gt;, a cybersecurity enthusiast and BCA (Hons.) student at &lt;strong&gt;Christ University, Bangalore, India&lt;/strong&gt;.&lt;br&gt;&#xA;I’m currently studying for the &lt;strong&gt;CompTIA Security+ certification&lt;/strong&gt;, and this blog is where I document my journey — from tutorials and notes to projects and practical cybersecurity insights.&lt;/p&gt;&#xA;&lt;p&gt;This platform is also part of my effort to build a strong profile for applying to internships in cybersecurity.&lt;br&gt;&#xA;If you’re a beginner, a fellow learner, or a recruiter — you’re in the right place.&lt;/p&gt;</description>
     </item>
   </channel>
