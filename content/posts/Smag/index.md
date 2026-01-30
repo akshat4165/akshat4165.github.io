@@ -1,3 +1,18 @@
+---
+title: "TryHackMe Smag Grotto Walkthrough"
+date: 2026-01-30
+tags:
+  - tryhackme
+  - ctf
+  - easy
+  - Application Security
+  - walkthrough
+draft: false
+cover:
+  image: images/Smag_Thumbnail
+  alt: This is Thumbnail
+  caption: ' '
+---
 
 NMAP Scan
 
