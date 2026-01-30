@@ -9,7 +9,7 @@ tags:
   - walkthrough
 draft: false
 cover:
-  image: images/Smag_Thumbnail
+  image: images/Smag_Thumbnail.png
   alt: This is Thumbnail
   caption: ' '
 ---
