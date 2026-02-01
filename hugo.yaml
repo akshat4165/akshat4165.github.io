@@ -4,8 +4,9 @@ title: "Akshat On Security"
 theme: "PaperMod"
 
 params:
+  favicon: "/favicon.png"
   homeInfoParams:
-    Title: "Welcome to my Cybersecurity Profile!"
+    Title: "Welcome to my Cybersecurity Blog!"
   socialIcons:
     - name: github
       url: "https://github.com/akshat4165"
