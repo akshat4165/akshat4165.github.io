@@ -4,7 +4,8 @@ title: "Akshat On Security"
 theme: "PaperMod"
 
 params:
-  favicon: "/favicon.png"
+  assets: 
+    favicon: "images/favicon.png"
   homeInfoParams:
     Title: "Welcome to my Cybersecurity Blog!"
   socialIcons:
