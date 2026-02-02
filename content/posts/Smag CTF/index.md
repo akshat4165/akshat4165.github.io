@@ -87,8 +87,6 @@ And BOOM Again!!
 
 we got the shell as jake in the system.
 
-![](Pasted%20image%2020260130200206.png)
-
 and here we go, we got the user flag.
 
 Now, let's hunt the root flag.
@@ -107,8 +105,6 @@ we have a GTFO bin for this SUID, which we have to run using `sudo apt-get updat
 our there are multiple things we can do with this SUID bin permission, but our primary goal is to get the root shell and retrieve the root flag.
 
 you can refer this [GTFO apt-get](https://gtfobins.org/gtfobins/apt-get/)
-
-![](Pasted%20image%2020260130201130.png)
 
 so here we got the root flag as well.
 
