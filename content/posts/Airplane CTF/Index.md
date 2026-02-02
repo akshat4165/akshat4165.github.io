@@ -1,3 +1,18 @@
+---
+title: "TryHackMe Airplane Walkthrough"
+date: 2026-02-02
+tags:
+  - tryhackme
+  - ctf
+  - medium
+  - Application Security
+  - walkthrough
+draft: false
+cover:
+  image: images/Airplane_CTF.png
+  alt: This is Thumbnail
+  caption: ' '
+---
 
 First of all add the machine IP to `/etc/hosts`
 
