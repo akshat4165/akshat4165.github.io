@@ -1,5 +1,5 @@
 ---
-title: "TryHackMe SSTI Guide"
+title: "TryHackMe SSTI Walkthrough"
 date: 2026-02-03
 tags:
   - tryhackme
@@ -14,6 +14,8 @@ cover:
   alt: This is Thumbnail
   caption: ' '
 ---
+
+{{< raw >}}
 
 SSTI means to take advantage of an insecure implementation of the template engine.
 
@@ -127,7 +129,7 @@ http://10.49.140.97:5000/profile/{% import os %}{{ os.system("whoami") }}
 
 as jinja is sub language of python it does not support `import`.
 
-Python allows us to call the current class instance with [.**class**](https://docs.python.org/release/2.6.4/library/stdtypes.html#instance.__class__), we can call this on an empty string:
+Python allows us to call the current class instance with .**class**, we can call this on an empty string:
 
 Payload:
 
@@ -135,7 +137,7 @@ Payload:
 http://10.49.140.97:5000/profile/{{ ''.__class__ }}
 ```
 
-Classes in Python have an attribute called [.**mro**](https://docs.python.org/release/2.6.4/library/stdtypes.html#class.__mro__) that allows us to climb up the inherited object tree:
+Classes in Python have an attribute called .**mro** that allows us to climb up the inherited object tree:
 
 Payload:
 
@@ -151,7 +153,7 @@ Payload:
 http://10.49.140.97:5000/profile/{{ ''.__class__.__mro__[1] }}
 ```
 
-this is the payload cheat sheet which can be used [Github For SSTI Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
+this is the payload cheat sheet which can be used [https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
 
 ### Remediation
 
