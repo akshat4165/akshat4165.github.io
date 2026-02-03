@@ -14,7 +14,7 @@ cover:
   alt: This is Thumbnail
   caption: ' '
 ---
-
+```md
 
 SSTI means to take advantage of an insecure implementation of the template engine.
 
@@ -46,7 +46,9 @@ fuzzing is a technique to determine whether the server is vulnerable by sending 
 
 It can be done `manually` or by the use of application `burpsuite's intruder` which is generally used for brute-forcing.
 
-the following characters are known to be used in quite a few template engines: `${{<%[%'"}}%`
+the following characters are known to be used in quite a few template engines:
+`${{<%[%'"}}%`
+
 
 Continue with this process until you either get an error, or some characters start disappearing from the output.
 
@@ -125,3 +127,5 @@ this is the payload cheat sheet which can be used [Github For SSTI Payloads](htt
 ### Remediation
 - Secure methods like `user=user` can be used.
 - regex methods can be used for sanitization.
+
+```
