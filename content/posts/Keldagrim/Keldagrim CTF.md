@@ -17,7 +17,7 @@ cover:
 
 We gonna start with NMAP scan:
 
-![](Pasted%20image%2020260203100646.png)
+![](1.png)
 
 Even if it is showing that these ports are filtered we are going to check it by visiting the website on port 80.
 
@@ -25,39 +25,39 @@ add the IP to the `/etc/hosts`.
 
 okay we can visit the website and we can see that there multiple things listed on the website, from that we can enumerate more on the directories.
 
-![](Pasted%20image%2020260203100904.png)
+![](2.png)
 
 upon seeing the website, there is `/admin` which is greyed out and visiting it isn't showing anything.
 
 so lets take this  to burp suite.
 
-![](Pasted%20image%2020260203102948.png)
+![](3.png)
 
 upon looking at the website cookies and the panel on the right,
 
 we can see the the cookie was double encoded with `base64` and the decoded version of it is `guest`.
 
-![](Pasted%20image%2020260203103204.png)
+![](4.png)
 lets change the `guest` to `admin` in inspector panel and paste the base64 to the cookies. which translates to 
 
 `YWRtaW4=`
 
 so lets change the cookie value in local storage to prevent it from resetting on every refresh.
 
-![](Pasted%20image%2020260203105450.png)
+![](5.png)
 
 so now here you can see the sales value is also encoded in base64, by decoding it we get 
 
 `SkRJc01UWTE=` 
 
-![](Pasted%20image%2020260203110136.png)
+![](6.png)
 
 we get the sales value which is shown on website.
 
 we can easily change it and get rich!!
 
 
-![](Pasted%20image%2020260203110715.png)
+![](7.png)
 
 
 you can see we changed the sales cookie value and the amount also changed.
@@ -68,11 +68,11 @@ we have encoded `{{7*7}}`  to  `e3s3Kjd9fQ==`.
 
 lets check now:
 
-![](Pasted%20image%2020260203111233.png)
+![](8.png)
 
 and you can see the value changed to `49`.
 
-![](SSTI%20Template%20decision%20tree%201.png)
+![](9.png)
 
 you can refer this to find out the template engine.
 
@@ -98,7 +98,7 @@ e3tnZXRfZmxhc2hlZF9tZXNzYWdlcy5fX2NsYXNzX18uX19tcm9fX1sxXS5fX3N1YmNsYXNzZXNf
 XygpfX0K
 ```
 
-![](Pasted%20image%2020260203120035.png)
+![](10.png)
 
 And we got this, this is goldmine.
 
@@ -115,7 +115,7 @@ we will use this,
 
 again didn't find anything useful,
 
-![](Pasted%20image%2020260203123009.png)
+![](11.png)
 we are going to use this for this [repo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2---remote-command-execution)
 
 but we will tweak it in our own way
@@ -130,7 +130,7 @@ eyUgZm9yIHggaW4gKCkuX19jbGFzc19fLl9fYmFzZV9fLl9fc3ViY2xhc3Nlc19fKCkgJX17JSBpZiAi
 
 And this got us reverse shell.
 
-![](Pasted%20image%2020260203143439.png)
+![](12.png)
 
 ### Persistence
 
@@ -146,7 +146,7 @@ cd .ssh
 jed@ip-10-49-137-136:~/.ssh$ echo "Your ssh key" >> authorized_keys
 ```
 
-![](Pasted%20image%2020260203144903.png)
+![](13.png)
 
 and here we got the persistent connection
 
@@ -154,7 +154,7 @@ and here we got the persistent connection
 
 let's see what `jed` has to do for root permissions `sudo -l`.
 
-![](Pasted%20image%2020260203145043.png)
+![](14.png)
 
 we can see `/bin/ps` which will only help us for execution of the command for priv esc.
 
@@ -195,7 +195,7 @@ sudo LD_PRELOAD=/home/jed/privesc.so /bin/ps
 ```
 
 
-![](Pasted%20image%2020260203153255.png)
+![](15.png)
 
 BOOM! we got the `root.txt` flag.
 
