@@ -14,6 +14,8 @@ cover:
   caption: ' '
 ---
 
+Room Link: [Operation Slither Room Link](https://tryhackme.com/room/operationslitherIU)
+
 ![](Pasted%20image%2020260204142507.png)
 
 let's see what info do we have here.

@@ -15,6 +15,8 @@ cover:
   caption: ' '
 ---
 
+Room Link: [Keldagrim Room Link](https://tryhackme.com/room/keldagrim)
+
 We gonna start with NMAP scan:
 
 ![](1.png)

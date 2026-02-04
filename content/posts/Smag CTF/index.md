@@ -14,6 +14,8 @@ cover:
   caption: ' '
 ---
 
+Room Link: [Smag Grotto Room Link](https://tryhackme.com/room/smaggrotto)
+
 NMAP Scan
 
 ![](Pasted%20image%2020260130132629.png)

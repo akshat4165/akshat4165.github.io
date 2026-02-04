@@ -14,6 +14,7 @@ cover:
   caption: ' '
 ---
 
+Room Link: [Airplane Room Link](https://tryhackme.com/room/airplane)
 
 First of all add the machine IP to `/etc/hosts`
 
