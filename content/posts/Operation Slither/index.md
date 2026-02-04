@@ -1,3 +1,19 @@
+---
+title: "TryHackMe Operation Slither Walkthrough"
+date: 2026-02-04
+tags:
+  - tryhackme
+  - ctf
+  - easy
+  - walkthrough
+  - OSINT
+draft: false
+cover:
+  image: images/OperationSlither.png
+  alt: This is Thumbnail
+  caption: ' '
+---
+
 ![](Pasted%20image%2020260204142507.png)
 
 let's see what info do we have here.
