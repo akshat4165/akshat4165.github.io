@@ -1,3 +1,20 @@
+---
+title: "TryHackMe LazyAdmin Walkthrough"
+date: 2026-02-05
+tags:
+  - tryhackme
+  - ctf
+  - medium
+  - linux
+  - walkthrough
+  - privesc
+draft: false
+cover:
+  image: images/LazyAdmin.png
+  alt: This is Thumbnail
+  caption: ' '
+---
+
 Room Link: [LazyAdmin Room Link](https://tryhackme.com/room/lazyadmin)
 
 add machine IP to `/etc/hosts`
