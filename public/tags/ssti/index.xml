@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSTI on Akshat On Security</title>
+    <link>http://localhost:1313/tags/ssti/</link>
+    <description>Recent content in SSTI on Akshat On Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ssti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Keldagrim Walkthrough</title>
+      <link>http://localhost:1313/posts/keldagrim/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/keldagrim/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/keldagrim&#34;&gt;Keldagrim Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We gonna start with NMAP scan:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Even if it is showing that these ports are filtered we are going to check it by visiting the website on port 80.&lt;/p&gt;&#xA;&lt;p&gt;add the IP to the &lt;code&gt;/etc/hosts&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;okay we can visit the website and we can see that there multiple things listed on the website, from that we can enumerate more on the directories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon seeing the website, there is &lt;code&gt;/admin&lt;/code&gt; which is greyed out and visiting it isn&amp;rsquo;t showing anything.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

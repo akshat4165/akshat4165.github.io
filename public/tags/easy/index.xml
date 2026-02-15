@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Easy on Akshat On Security</title>
+    <link>http://localhost:1313/tags/easy/</link>
+    <description>Recent content in Easy on Akshat On Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Committed Walkthrough</title>
+      <link>http://localhost:1313/posts/committed/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/committed/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/committed&#34;&gt;Committed&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;unzip the &lt;code&gt;committed.zip&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s check the logs for the git commit.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git log --all&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215214844.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;straightaway we can see that there is a file named &lt;code&gt;DB check&lt;/code&gt; which looks very interesting.&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s see check it out.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout 3a8cc16f919b8ac43651d68dceacbb28ebb9b625&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat main.py&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215215323.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and here we go we found the flag.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Operation Slither Walkthrough</title>
+      <link>http://localhost:1313/posts/operation-slither/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/operation-slither/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/operationslitherIU&#34;&gt;Operation Slither Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204142507.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s see what info do we have here.&lt;/p&gt;&#xA;&lt;p&gt;so the name of the leader here is:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;@v3n0mbyt3_&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;On a simple google search we can see the X account under the name.&lt;/p&gt;&#xA;&lt;p&gt;but we have to find another social media where &lt;code&gt;@v3n0mbyt3_&lt;/code&gt; is used as a username.&lt;/p&gt;&#xA;&lt;p&gt;just scroll down more and you will see a new social media platform from meta.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204143204.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;going to the replies we can see there is a base64 encoded text here&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Smag Grotto Walkthrough</title>
+      <link>http://localhost:1313/posts/smag-ctf/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/smag-ctf/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/smaggrotto&#34;&gt;Smag Grotto Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;NMAP Scan&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130132629.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;we can see there are 2 services on port 22 and port 80.&lt;/p&gt;&#xA;&lt;p&gt;we will check out port 80.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130133727.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon directory enumeration, we found an interesting directory on the website lets explore it,&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134041.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we can see an attachment with .pcap extension, let&amp;rsquo;s download it and open it with wireshark.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134317.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;as you can see in the image we  upon examining the POST request, we found out the credentials, now we are going to try them in on the HOST website i.e &lt;code&gt;development.smag.thm&lt;/code&gt; .&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

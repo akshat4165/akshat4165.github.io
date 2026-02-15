@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medium on Akshat On Security</title>
+    <link>http://localhost:1313/tags/medium/</link>
+    <description>Recent content in Medium on Akshat On Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Crypto Failures Walkthrough</title>
+      <link>http://localhost:1313/posts/crypto-failures/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/crypto-failures/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/cryptofailures&#34;&gt;Crypto Failures&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon visiting the web of the IP of target machine we can see:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210529.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so here it says we are logged in as &lt;code&gt;guest&lt;/code&gt;&#xA;and upon visiting the source code of this website.&lt;/p&gt;&#xA;&lt;p&gt;we can see there is a comment in the file which says:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210624.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so let&amp;rsquo;s run a &lt;code&gt;Gobuster&lt;/code&gt; scan and see what we get here.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gobuster dir -u http://10.48.162.78 -w /usr/share/wordlists/dirb/common.txt -x bak,php,js,txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210706.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe LazyAdmin Walkthrough</title>
+      <link>http://localhost:1313/posts/lazyadmin/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lazyadmin/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/lazyadmin&#34;&gt;LazyAdmin Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;add machine IP to &lt;code&gt;/etc/hosts&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;10.48.181.50    lazyadmin.thm&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/hosts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;First we are gonna perform NMAP scan&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -A lazyadmin.thm -T5 -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204163617.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is what we got.&lt;/p&gt;&#xA;&lt;p&gt;let enumerate the directories&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gobuster dir -u http://lazyadmin.thm -w /usr/share/wordlists/dirb/common.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204163904.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;we found these directories&lt;/p&gt;&#xA;&lt;p&gt;lets visit them&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204164014.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is what is in the &lt;code&gt;/content&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon seeing this we can identify that this website is built on &lt;code&gt;basic-cms - sweet rice&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Keldagrim Walkthrough</title>
+      <link>http://localhost:1313/posts/keldagrim/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/keldagrim/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/keldagrim&#34;&gt;Keldagrim Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We gonna start with NMAP scan:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Even if it is showing that these ports are filtered we are going to check it by visiting the website on port 80.&lt;/p&gt;&#xA;&lt;p&gt;add the IP to the &lt;code&gt;/etc/hosts&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;okay we can visit the website and we can see that there multiple things listed on the website, from that we can enumerate more on the directories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon seeing the website, there is &lt;code&gt;/admin&lt;/code&gt; which is greyed out and visiting it isn&amp;rsquo;t showing anything.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Airplane Walkthrough</title>
+      <link>http://localhost:1313/posts/airplane-ctf/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/airplane-ctf/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/airplane&#34;&gt;Airplane Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all add the machine IP to &lt;code&gt;/etc/hosts&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;As always we will perform a NMAP scan:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nmap&#34; data-lang=&#34;nmap&#34;&gt;$ nmap -sT -p- airplane.thm -T4&#xA;&#xA;Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-07 20:01 CEST&#xA;Nmap scan report for airplane.thm (10.10.196.89)&#xA;Host is up (0.064s latency).&#xA;Not shown: 65532 closed tcp ports (conn-refused)&#xA;PORT     STATE SERVICE&#xA;22/tcp   open  ssh&#xA;6048/tcp open  x11&#xA;8000/tcp open  http-alt&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We found 3 open Ports here:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

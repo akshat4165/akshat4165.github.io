@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptography on Akshat On Security</title>
+    <link>http://localhost:1313/tags/cryptography/</link>
+    <description>Recent content in Cryptography on Akshat On Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Crypto Failures Walkthrough</title>
+      <link>http://localhost:1313/posts/crypto-failures/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/crypto-failures/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/cryptofailures&#34;&gt;Crypto Failures&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon visiting the web of the IP of target machine we can see:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210529.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so here it says we are logged in as &lt;code&gt;guest&lt;/code&gt;&#xA;and upon visiting the source code of this website.&lt;/p&gt;&#xA;&lt;p&gt;we can see there is a comment in the file which says:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210624.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so let&amp;rsquo;s run a &lt;code&gt;Gobuster&lt;/code&gt; scan and see what we get here.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gobuster dir -u http://10.48.162.78 -w /usr/share/wordlists/dirb/common.txt -x bak,php,js,txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260209210706.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSINT on Akshat On Security</title>
+    <link>http://localhost:1313/tags/osint/</link>
+    <description>Recent content in OSINT on Akshat On Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Operation Slither Walkthrough</title>
+      <link>http://localhost:1313/posts/operation-slither/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/operation-slither/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/operationslitherIU&#34;&gt;Operation Slither Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204142507.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s see what info do we have here.&lt;/p&gt;&#xA;&lt;p&gt;so the name of the leader here is:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;@v3n0mbyt3_&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;On a simple google search we can see the X account under the name.&lt;/p&gt;&#xA;&lt;p&gt;but we have to find another social media where &lt;code&gt;@v3n0mbyt3_&lt;/code&gt; is used as a username.&lt;/p&gt;&#xA;&lt;p&gt;just scroll down more and you will see a new social media platform from meta.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204143204.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;going to the replies we can see there is a base64 encoded text here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

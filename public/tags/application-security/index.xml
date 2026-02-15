@@ -6,8 +6,29 @@
     <description>Recent content in Application Security on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Keldagrim Walkthrough</title>
+      <link>http://localhost:1313/posts/keldagrim/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/keldagrim/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/keldagrim&#34;&gt;Keldagrim Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We gonna start with NMAP scan:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Even if it is showing that these ports are filtered we are going to check it by visiting the website on port 80.&lt;/p&gt;&#xA;&lt;p&gt;add the IP to the &lt;code&gt;/etc/hosts&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;okay we can visit the website and we can see that there multiple things listed on the website, from that we can enumerate more on the directories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon seeing the website, there is &lt;code&gt;/admin&lt;/code&gt; which is greyed out and visiting it isn&amp;rsquo;t showing anything.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Airplane Walkthrough</title>
+      <link>http://localhost:1313/posts/airplane-ctf/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/airplane-ctf/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/airplane&#34;&gt;Airplane Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all add the machine IP to &lt;code&gt;/etc/hosts&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;As always we will perform a NMAP scan:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nmap&#34; data-lang=&#34;nmap&#34;&gt;$ nmap -sT -p- airplane.thm -T4&#xA;&#xA;Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-07 20:01 CEST&#xA;Nmap scan report for airplane.thm (10.10.196.89)&#xA;Host is up (0.064s latency).&#xA;Not shown: 65532 closed tcp ports (conn-refused)&#xA;PORT     STATE SERVICE&#xA;22/tcp   open  ssh&#xA;6048/tcp open  x11&#xA;8000/tcp open  http-alt&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We found 3 open Ports here:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TryHackMe Smag Grotto Walkthrough</title>
+      <link>http://localhost:1313/posts/smag-ctf/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/smag-ctf/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/smaggrotto&#34;&gt;Smag Grotto Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;NMAP Scan&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130132629.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;we can see there are 2 services on port 22 and port 80.&lt;/p&gt;&#xA;&lt;p&gt;we will check out port 80.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130133727.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon directory enumeration, we found an interesting directory on the website lets explore it,&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134041.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we can see an attachment with .pcap extension, let&amp;rsquo;s download it and open it with wireshark.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134317.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;as you can see in the image we  upon examining the POST request, we found out the credentials, now we are going to try them in on the HOST website i.e &lt;code&gt;development.smag.thm&lt;/code&gt; .&lt;/p&gt;</description>
+    </item>
     <item>
       <title>TryHackMe OWASP Application Design Flaws Walkthrough</title>
       <link>http://localhost:1313/posts/owasp-application-design-flaws-walkthrough/</link>
