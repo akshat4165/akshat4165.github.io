@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe Committed Walkthrough"
-date: 2026-02-13
+date: 2026-02-15
 tags:
   - tryhackme
   - ctf
