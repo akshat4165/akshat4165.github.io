@@ -1,5 +1,5 @@
 ---
-title: "TryHackMe Commited Walkthrough"
+title: "TryHackMe Committed Walkthrough"
 date: 2026-02-13
 tags:
   - tryhackme
@@ -9,14 +9,14 @@ tags:
   - walkthrough
 draft: false
 cover:
-  image: images/commited.png
+  image: images/committed.png
   alt: This is Thumbnail
   caption: ' '
 ---
 
-Room Link: [Commited](https://tryhackme.com/room/committed)
+Room Link: [Committed](https://tryhackme.com/room/committed)
 
-unzip the `commited.zip` 
+unzip the `committed.zip` 
 
 let's check the logs for the git commit.
 
