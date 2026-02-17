@@ -34,6 +34,10 @@ menu:
       name: Blog
       url: /posts/
       weight: 10
+    - identifier: lafb
+      name: Love at First Breach
+      url: /love-at-first-breach/
+      weight: 15
     - identifier: about
       name: About
       url: /about/

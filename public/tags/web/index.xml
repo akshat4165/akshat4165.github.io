@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Easy on Akshat On Security</title>
-    <link>http://localhost:1313/tags/easy/</link>
-    <description>Recent content in Easy on Akshat On Security</description>
+    <title>Web on Akshat On Security</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on Akshat On Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Corp Website Walkthrough</title>
+      <link>http://localhost:1313/love-at-first-breach/corp-website/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/love-at-first-breach/corp-website/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/lafb2026e7&#34;&gt;Corp Website&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215071855.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;so here with wappalyzer we can see that this is built on &lt;code&gt;React&lt;/code&gt; and &lt;code&gt;Next.js&lt;/code&gt; which more likely tell us we should scan for &lt;code&gt;React2Shell&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m using this &lt;a href=&#34;https://github.com/assetnote/react2shell-scanner&#34;&gt;scanner&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215072234.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here you can see our guess was correct, this website is vulnerable to &lt;code&gt;React2Shell&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Now to exploit it we will use &lt;a href=&#34;https://github.com/xalgord/React2Shell&#34;&gt;Exploit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215072649.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215073338.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we got the &lt;code&gt;user.txt&lt;/code&gt; flag.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215073458.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we can see our &lt;code&gt;uid&lt;/code&gt; is &lt;code&gt;daniel&lt;/code&gt; and &lt;code&gt;sudo -l&lt;/code&gt; tells us something interesting to run.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>TryHackMe Cupid&#39;s Matchmaker Walkthrough</title>
       <link>http://localhost:1313/love-at-first-breach/cupids-matchmaker/</link>
@@ -37,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>TryHackMe Love Letter Locker Walkthrough</title>
+      <link>http://localhost:1313/love-at-first-breach/love-letter-locker/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/love-at-first-breach/love-letter-locker/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/lafb2026e2&#34;&gt;Love Letter Locker&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s visit the website and analyse the interface.&lt;/p&gt;&#xA;&lt;p&gt;we have sign in and login buttons as always we will register and new account.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260214231632.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s login now and find write a new letter&#xA;&lt;img src=&#34;Pasted%20image%2020260214231750.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and let&amp;rsquo;s open it now&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260214231836.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here in this link you can notice that the &lt;code&gt;3&lt;/code&gt; in the link matches the letter number as well, so let&amp;rsquo;s try to change it and try to read the other letters.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>TryHackMe Speed Chatting Walkthrough</title>
       <link>http://localhost:1313/love-at-first-breach/speed-chatting/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
@@ -51,25 +65,18 @@
       <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/lafb2026e5&#34;&gt;TryHeartMe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260214011737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon visiting the website we can see that there are 4 products and we can notice here that there is login and signup options  as well,&lt;/p&gt;&#xA;&lt;p&gt;so let&amp;rsquo;s sign up.&lt;/p&gt;&#xA;&lt;p&gt;after signing up we will click on some product.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260214011947.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here our role says &lt;code&gt;user&lt;/code&gt; so we can assume that to buy the hidden product we have to change our role to someone else.&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s intercept this with burpsuite and check what request it is sending to the website.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>TryHackMe Committed Walkthrough</title>
-      <link>http://localhost:1313/posts/committed/</link>
-      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/committed/</guid>
-      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/committed&#34;&gt;Committed&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;unzip the &lt;code&gt;committed.zip&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s check the logs for the git commit.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git log --all&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215214844.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;straightaway we can see that there is a file named &lt;code&gt;DB check&lt;/code&gt; which looks very interesting.&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s see check it out.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout 3a8cc16f919b8ac43651d68dceacbb28ebb9b625&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat main.py&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215215323.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and here we go we found the flag.&lt;/p&gt;</description>
+      <title>TryHackMe Valenfind Walkthrough</title>
+      <link>http://localhost:1313/love-at-first-breach/valenfind/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/love-at-first-breach/valenfind/</guid>
+      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/lafb2026e10&#34;&gt;Valenfind&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260213220119.png&#34; alt=&#34;&#34;&gt;&#xA;Let&amp;rsquo;s Sign Up and create an account&#xA;&lt;img src=&#34;Pasted%20image%2020260213220359.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Complete your profile.&#xA;&lt;img src=&#34;Pasted%20image%2020260213220601.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon looking all the other profiles, this profile seems to be something useful,&#xA;let&amp;rsquo;s send the valentine request&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260213221759.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon checking the source code of the website we can see that there is a comment saying that &lt;code&gt;layout allows LFI&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;if so let&amp;rsquo;s check what we can get.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260213222001.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we go we can see the &lt;code&gt;/etc/passwd&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>TryHackMe Operation Slither Walkthrough</title>
-      <link>http://localhost:1313/posts/operation-slither/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/operation-slither/</guid>
-      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/operationslitherIU&#34;&gt;Operation Slither Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204142507.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;let&amp;rsquo;s see what info do we have here.&lt;/p&gt;&#xA;&lt;p&gt;so the name of the leader here is:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;@v3n0mbyt3_&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;On a simple google search we can see the X account under the name.&lt;/p&gt;&#xA;&lt;p&gt;but we have to find another social media where &lt;code&gt;@v3n0mbyt3_&lt;/code&gt; is used as a username.&lt;/p&gt;&#xA;&lt;p&gt;just scroll down more and you will see a new social media platform from meta.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260204143204.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;going to the replies we can see there is a base64 encoded text here&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TryHackMe Smag Grotto Walkthrough</title>
-      <link>http://localhost:1313/posts/smag-ctf/</link>
-      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/smag-ctf/</guid>
-      <description>&lt;p&gt;Room Link: &lt;a href=&#34;https://tryhackme.com/room/smaggrotto&#34;&gt;Smag Grotto Room Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;NMAP Scan&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130132629.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;we can see there are 2 services on port 22 and port 80.&lt;/p&gt;&#xA;&lt;p&gt;we will check out port 80.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130133727.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;upon directory enumeration, we found an interesting directory on the website lets explore it,&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134041.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;here we can see an attachment with .pcap extension, let&amp;rsquo;s download it and open it with wireshark.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260130134317.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;as you can see in the image we  upon examining the POST request, we found out the credentials, now we are going to try them in on the HOST website i.e &lt;code&gt;development.smag.thm&lt;/code&gt; .&lt;/p&gt;</description>
+      <title>TryHackMe When Hearts Collide Walkthrough</title>
+      <link>http://localhost:1313/love-at-first-breach/when-hearts-collide/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/love-at-first-breach/when-hearts-collide/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s visit the website and see how it is and what it says.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215045807.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is enough to give the hint that this is classic MD5 collision problem.&lt;/p&gt;&#xA;&lt;p&gt;for this challenge we will use &lt;code&gt;fastcoll&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;To it hassle free i downloaded the pre-made hash collision MD5 hash file&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://www.mathstat.dal.ca/~selinger/md5collision/hello&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://www.mathstat.dal.ca/~selinger/md5collision/erase&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md5sum hello erase&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mv hello a.jpg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mv erase b.jpg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;now upload both one by one.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Pasted%20image%2020260215054646.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
