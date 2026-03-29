@@ -18,11 +18,11 @@ Room Link: [Lo-Fi](https://tryhackme.com/room/lofi)
 
 NMAP Scan:
 
-![](Pasted%20image%2020260329133438.png)
+![](1.png)
 
 Gobuster Scan:
 
-![](Pasted%20image%2020260329133506.png)
+![](2.png)
 
 let's visit the web page and find the vulnerability.
 
@@ -32,18 +32,18 @@ So as a hint it is given that we have LFI in this room. but where?
 http://10.48.130.32/?page=relax.php
 ```
 OR
-```
+```shell
 http://10.48.130.32/?search=
 ```
 
-![](Pasted%20image%2020260329142320.png)
+![](3.png)
 this returns the same page.
 
-![](Pasted%20image%2020260329142403.png)
+![](4.png)
 
 we got it.
 
-```
+```shell
 ../../../../flag.txt
 ```
 
